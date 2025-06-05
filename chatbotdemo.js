@@ -287,7 +287,7 @@ style.innerHTML = `
 
   const chatBtn = document.createElement('button');
   chatBtn.id = 'n8n-chat-button';
-  chatBtn.innerHTML = '#" alt="Chat" />';
+  chatBtn.innerHTML = "#";
   document.body.appendChild(chatBtn);
 
   const chatContainer = document.createElement('div');
@@ -360,7 +360,7 @@ style.innerHTML = `
     msgBox.scrollTop = msgBox.scrollHeight;
   
     try {
-      const res = await fetch('https://n8n.thuhoai-academy.com/webhook-test/demo', {
+      const res = await fetch('https://n8n.thuhoai-academy.com/webhook/demo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text })
