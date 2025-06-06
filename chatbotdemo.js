@@ -303,7 +303,7 @@ style.innerHTML = `
     <div id="n8n-chat-messages"></div>
     <div id="n8n-suggest-buttons">
       <button class="n8n-suggest">🧠 Thông tin giới thiệu Công Ty Hoàng Bảo Khoa</button>
-      <button class="n8n-suggest">💰 top 5 sản phẩm đang giảm giá</button>
+      <button class="n8n-suggest">💰 thông tin sản phẩm đang giảm giá</button>
     </div>
     <div id="n8n-chat-input-container">
       <span id="n8n-input-menu">☰</span>
